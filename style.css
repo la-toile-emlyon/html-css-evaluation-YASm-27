@@ -1,0 +1,132 @@
+body{
+
+}
+
+/*NAV de la page*/
+
+nav{
+    background-color: antiquewhite;
+    display: flex;                 
+    justify-content: space-between; 
+    align-items: center;           
+    padding: 10px 20px;
+}
+   
+.logo a img{
+  height: 100px;
+  width: auto;
+}
+
+.menu  {
+  display: flex;
+  list-style-type: none;
+  color: black;
+  gap: 20px;
+  padding: 0;
+  margin: 30px;
+}
+
+/*HEADER de la page*/
+
+#hero{
+    height: 600px;
+    background-image: url("IMG-fond2.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align:center
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+#hero h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-transform: uppercase; 
+}
+
+#hero p {
+  font-size: 40px;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.btn1 {
+  background-color:black;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none; 
+  border-radius: 5px;
+  display: inline-block;  
+  transition: 0.3s;
+}
+
+.btn2 {
+  background-color:black;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none; 
+  border-radius: 5px;
+  display: inline-block;  
+  transition: 0.3s;
+}
+
+/*VALEURS*/
+
+.section-blanche h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.section-blanche p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  color: #555;
+}
+
+
+
+.bloc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+
+
+
+
+
+.mosaique {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.mosaique img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+/*SERVICES*/
+
+main article a img {
+    width: 150px;
+    height: 200px;
+}
+
+.card1{
+    background-color: #e0e0e0;
+}
